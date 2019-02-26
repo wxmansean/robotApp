@@ -1,0 +1,16 @@
+#robots.txt
+#specify the robots you want loaded onto a grid
+#the format required is:
+#<name>,<xcoord>,<ycoord>,<orientation><direction string>
+#name can be any string
+#xcoord, ycoord must be some grid point within the grid (defined in grindinfo.txt)
+#orientation- direction the robot is facing in 90* compass increments 0 - N
+#direction can be any length, but must contain only the following characters
+#F: move forward one gridpoint
+#L: move left one gridpoint
+#R: move right one gridpoint
+
+Robot1,1,1,0,FRL
+Robot2,1,2,0,FFFRRRRL
+Robot3,0,0,90,FLLLF
+Robot4,0,-1,0,UDAB

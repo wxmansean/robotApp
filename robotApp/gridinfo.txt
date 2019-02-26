@@ -1,0 +1,8 @@
+# Grid size
+gridSize=5,5
+
+# Grid Obstacles
+Rock,1,3,,,
+Rock,4,4,,,
+Spinner,2,2,,,90
+Hole,1,2,0,0,5
